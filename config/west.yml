@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: jackpetry
-      url-base: https://github.com/jackpetry
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: niuniu-zmk-module
-      remote: jackpetry
+      remote: petejohanson
       revision: main
   self:
     path: config
