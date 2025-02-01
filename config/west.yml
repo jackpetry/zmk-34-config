@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: jackpetry
+      url-base: https://github.com/jackpetry
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: niuniu-zmk-module
+      remote: jackpetry
+      revision: main
+  self:
+    path: config
